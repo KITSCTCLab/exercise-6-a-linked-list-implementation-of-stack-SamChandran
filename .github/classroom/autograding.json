@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Test Case 1",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "push, push, push, push\r\n1, 2, 3, 4",
+      "output": "4=>3=>2=>1=>None",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 2",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "push, push, push, pop, push\r\n3, 4, 5, -, 6",
+      "output": "6=>4=>3=>None",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 3",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "pop,pop\r\n-,-",
+      "output": "None",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 4",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "push\r\n2",
+      "output": "2=>None",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 5",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "push, pop, push, pop\r\n1, -, 1, -",
+      "output": "None",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 6",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "push, push, push, pop, push, push, pop, push, pop\r\n1, 2, 3, -, 3, 4, -, 4, -",
+      "output": "3=>2=>1=>None",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 7",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "push, push\r\n-20, 20",
+      "output": "20=>-20=>None",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 8",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "push, push, pop, pop\r\n10, 20, -, -",
+      "output": "None",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 9",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "push, push, push, pop, pop, pop, pop, pop\r\n1, 2, 3, -, -, -, -, -",
+      "output": "None",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 10",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "push, push, push, pop, pop, pop, pop, pop, push\r\n1, 2, 3, -, -, -, -, -, 10",
+      "output": "10=>None",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    }
+  ]
+}
