@@ -117,8 +117,6 @@ for specific_operation in input().split(','):
 input_data = input()
 data = []
 
-
-
 # Do not change the following code
 stack = Stack()
 operations = []
